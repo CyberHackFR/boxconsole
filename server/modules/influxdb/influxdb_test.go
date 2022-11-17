@@ -9,7 +9,7 @@ package influxdb
 import (
 	"testing"
 
-	"github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/cyberhackfr/boxconsole/module"
 	"github.com/stretchr/testify/assert"
 )
 

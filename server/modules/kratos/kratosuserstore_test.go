@@ -8,10 +8,11 @@ package kratos
 
 import (
 	"context"
-	"github.com/security-onion-solutions/securityonion-soc/model"
-	"github.com/security-onion-solutions/securityonion-soc/server"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestUserstoreInit(tester *testing.T) {

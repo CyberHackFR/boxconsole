@@ -9,8 +9,8 @@ package elasticcases
 import (
 	"testing"
 
-	"github.com/security-onion-solutions/securityonion-soc/module"
-	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/cyberhackfr/boxconsole/server"
 	"github.com/stretchr/testify/assert"
 )
 

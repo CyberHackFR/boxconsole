@@ -4,7 +4,7 @@
 # https://securityonion.net/license; you may not use this file except in compliance with the
 # Elastic License 2.0.
 
-FROM ghcr.io/security-onion-solutions/golang:alpine AS builder
+FROM ghcr.io/cyberhackfr/golang:alpine AS builder
 
 ARG OWNER=ory
 ARG VERSION=v0.10.1
@@ -27,7 +27,7 @@ ENV CGO_ENABLED 1
 RUN go mod download
 RUN go build -tags sqlite -a
 
-FROM ghcr.io/security-onion-solutions/alpine:latest
+FROM ghcr.io/cyberhackfr/alpine:latest
 
 ENV DSN=sqlite:///kratos-data/db.sqlite?_fk=true
 

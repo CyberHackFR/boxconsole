@@ -8,7 +8,8 @@ package server
 
 import (
 	"context"
-	"github.com/security-onion-solutions/securityonion-soc/model"
+
+	"github.com/cyberhackfr/boxconsole/model"
 )
 
 type Eventstore interface {

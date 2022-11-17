@@ -9,11 +9,12 @@ package elastic
 import (
 	"errors"
 	"fmt"
-	"github.com/apex/log"
-	"github.com/security-onion-solutions/securityonion-soc/json"
-	"github.com/security-onion-solutions/securityonion-soc/model"
 	"strings"
 	"time"
+
+	"github.com/apex/log"
+	"github.com/cyberhackfr/boxconsole/json"
+	"github.com/cyberhackfr/boxconsole/model"
 )
 
 func stripSegmentOptions(keys []string) []string {

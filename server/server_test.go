@@ -7,9 +7,10 @@
 package server
 
 import (
-	"github.com/security-onion-solutions/securityonion-soc/config"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/cyberhackfr/boxconsole/config"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestNewServer(tester *testing.T) {

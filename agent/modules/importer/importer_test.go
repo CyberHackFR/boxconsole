@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/cyberhackfr/boxconsole/model"
 	"github.com/stretchr/testify/assert"
 )
 

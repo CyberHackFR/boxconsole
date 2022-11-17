@@ -19,11 +19,11 @@ import (
 	"time"
 
 	"github.com/apex/log"
+	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/cyberhackfr/boxconsole/web"
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/elastic/go-elasticsearch/v8/esapi"
-	"github.com/security-onion-solutions/securityonion-soc/model"
-	"github.com/security-onion-solutions/securityonion-soc/server"
-	"github.com/security-onion-solutions/securityonion-soc/web"
 	"github.com/tidwall/gjson"
 )
 
@@ -560,17 +560,18 @@ func (store *ElasticEventstore) buildRangeFilter(timestampStr string) (string, t
 	return "", time.Time{}
 }
 
-/**
-* Fetch record via provided Elasticsearch document query.
-* If the record has a tunnel_parent, search for a UID=tunnel_parent[0]
-*   - If found, discard original record and replace with the new record
-* If the record has source IP/port and destination IP/port, use it as the filter.
-* Else if the record has a Zeek x509 "ID" search for the first Zeek record with this ID.
-* Else if the record has a Zeek file "FUID" search for the first Zeek record with this FUID.
-* Search for the Zeek record with a matching log.id.uid equal to the UID from the previously found record
-*   - If multiple UIDs exist in the record, use the first UID in the list.
-* Review the results from the Zeek search and find the record with the timestamp nearest
-  to the original ES ID record and use the IP/port details as the filter.
+/*
+*
+  - Fetch record via provided Elasticsearch document query.
+  - If the record has a tunnel_parent, search for a UID=tunnel_parent[0]
+  - - If found, discard original record and replace with the new record
+  - If the record has source IP/port and destination IP/port, use it as the filter.
+  - Else if the record has a Zeek x509 "ID" search for the first Zeek record with this ID.
+  - Else if the record has a Zeek file "FUID" search for the first Zeek record with this FUID.
+  - Search for the Zeek record with a matching log.id.uid equal to the UID from the previously found record
+  - - If multiple UIDs exist in the record, use the first UID in the list.
+  - Review the results from the Zeek search and find the record with the timestamp nearest
+    to the original ES ID record and use the IP/port details as the filter.
 */
 func (store *ElasticEventstore) PopulateJobFromDocQuery(ctx context.Context, idField string, idValue string, timestampStr string, job *model.Job) error {
 	rangeFilter, timestamp := store.buildRangeFilter(timestampStr)

@@ -7,33 +7,33 @@
 package modules
 
 import (
-  "github.com/security-onion-solutions/securityonion-soc/module"
-  "github.com/security-onion-solutions/securityonion-soc/server"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/elastic"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/elasticcases"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/filedatastore"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/generichttp"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/influxdb"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/kratos"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/salt"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/sostatus"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/statickeyauth"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/staticrbac"
-  "github.com/security-onion-solutions/securityonion-soc/server/modules/thehive"
+	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/cyberhackfr/boxconsole/server/modules/elastic"
+	"github.com/cyberhackfr/boxconsole/server/modules/elasticcases"
+	"github.com/cyberhackfr/boxconsole/server/modules/filedatastore"
+	"github.com/cyberhackfr/boxconsole/server/modules/generichttp"
+	"github.com/cyberhackfr/boxconsole/server/modules/influxdb"
+	"github.com/cyberhackfr/boxconsole/server/modules/kratos"
+	"github.com/cyberhackfr/boxconsole/server/modules/salt"
+	"github.com/cyberhackfr/boxconsole/server/modules/sostatus"
+	"github.com/cyberhackfr/boxconsole/server/modules/statickeyauth"
+	"github.com/cyberhackfr/boxconsole/server/modules/staticrbac"
+	"github.com/cyberhackfr/boxconsole/server/modules/thehive"
 )
 
 func BuildModuleMap(srv *server.Server) map[string]module.Module {
-  moduleMap := make(map[string]module.Module)
-  moduleMap["filedatastore"] = filedatastore.NewFileDatastore(srv)
-  moduleMap["httpcase"] = generichttp.NewHttpCase(srv)
-  moduleMap["influxdb"] = influxdb.NewInfluxDB(srv)
-  moduleMap["kratos"] = kratos.NewKratos(srv)
-  moduleMap["elastic"] = elastic.NewElastic(srv)
-  moduleMap["elasticcases"] = elasticcases.NewElasticCases(srv)
-  moduleMap["salt"] = salt.NewSalt(srv)
-  moduleMap["sostatus"] = sostatus.NewSoStatus(srv)
-  moduleMap["statickeyauth"] = statickeyauth.NewStaticKeyAuth(srv)
-  moduleMap["staticrbac"] = staticrbac.NewStaticRbac(srv)
-  moduleMap["thehive"] = thehive.NewTheHive(srv)
-  return moduleMap
+	moduleMap := make(map[string]module.Module)
+	moduleMap["filedatastore"] = filedatastore.NewFileDatastore(srv)
+	moduleMap["httpcase"] = generichttp.NewHttpCase(srv)
+	moduleMap["influxdb"] = influxdb.NewInfluxDB(srv)
+	moduleMap["kratos"] = kratos.NewKratos(srv)
+	moduleMap["elastic"] = elastic.NewElastic(srv)
+	moduleMap["elasticcases"] = elasticcases.NewElasticCases(srv)
+	moduleMap["salt"] = salt.NewSalt(srv)
+	moduleMap["sostatus"] = sostatus.NewSoStatus(srv)
+	moduleMap["statickeyauth"] = statickeyauth.NewStaticKeyAuth(srv)
+	moduleMap["staticrbac"] = staticrbac.NewStaticRbac(srv)
+	moduleMap["thehive"] = thehive.NewTheHive(srv)
+	return moduleMap
 }

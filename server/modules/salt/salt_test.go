@@ -9,9 +9,9 @@ package salt
 import (
 	"testing"
 
-	"github.com/security-onion-solutions/securityonion-soc/config"
-	"github.com/security-onion-solutions/securityonion-soc/module"
-	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/cyberhackfr/boxconsole/config"
+	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/cyberhackfr/boxconsole/server"
 	"github.com/stretchr/testify/assert"
 )
 

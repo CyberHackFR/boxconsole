@@ -7,8 +7,8 @@
 package statickeyauth
 
 import (
-	"github.com/security-onion-solutions/securityonion-soc/module"
-	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/cyberhackfr/boxconsole/server"
 )
 
 type StaticKeyAuth struct {

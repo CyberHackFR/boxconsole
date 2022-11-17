@@ -8,11 +8,12 @@ package elastic
 
 import (
 	"context"
-	"github.com/security-onion-solutions/securityonion-soc/model"
-	"github.com/security-onion-solutions/securityonion-soc/server"
-	"github.com/security-onion-solutions/securityonion-soc/web"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestApplyTemplate(tester *testing.T) {

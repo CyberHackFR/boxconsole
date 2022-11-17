@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/security-onion-solutions/securityonion-soc/model"
-	"github.com/security-onion-solutions/securityonion-soc/web"
+	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/cyberhackfr/boxconsole/web"
 )
 
 type QueryHandler struct {

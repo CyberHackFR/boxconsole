@@ -8,9 +8,10 @@ package syntax
 
 import (
 	"errors"
-	"github.com/apex/log"
-	"github.com/security-onion-solutions/securityonion-soc/json"
 	"strings"
+
+	"github.com/apex/log"
+	"github.com/cyberhackfr/boxconsole/json"
 )
 
 func ValidateJson(value string) error {

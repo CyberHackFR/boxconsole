@@ -7,19 +7,19 @@
 package modules
 
 import (
-  "github.com/security-onion-solutions/securityonion-soc/agent"
-  "github.com/security-onion-solutions/securityonion-soc/agent/modules/analyze"
-  "github.com/security-onion-solutions/securityonion-soc/agent/modules/importer"
-  "github.com/security-onion-solutions/securityonion-soc/agent/modules/statickeyauth"
-  "github.com/security-onion-solutions/securityonion-soc/agent/modules/stenoquery"
-  "github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/cyberhackfr/boxconsole/agent"
+	"github.com/cyberhackfr/boxconsole/agent/modules/analyze"
+	"github.com/cyberhackfr/boxconsole/agent/modules/importer"
+	"github.com/cyberhackfr/boxconsole/agent/modules/statickeyauth"
+	"github.com/cyberhackfr/boxconsole/agent/modules/stenoquery"
+	"github.com/cyberhackfr/boxconsole/module"
 )
 
 func BuildModuleMap(agt *agent.Agent) map[string]module.Module {
-  moduleMap := make(map[string]module.Module)
-  moduleMap["analyze"] = analyze.NewAnalyze(agt)
-  moduleMap["importer"] = importer.NewImporter(agt)
-  moduleMap["statickeyauth"] = statickeyauth.NewStaticKeyAuth(agt)
-  moduleMap["stenoquery"] = stenoquery.NewStenoQuery(agt)
-  return moduleMap
+	moduleMap := make(map[string]module.Module)
+	moduleMap["analyze"] = analyze.NewAnalyze(agt)
+	moduleMap["importer"] = importer.NewImporter(agt)
+	moduleMap["statickeyauth"] = statickeyauth.NewStaticKeyAuth(agt)
+	moduleMap["stenoquery"] = stenoquery.NewStenoQuery(agt)
+	return moduleMap
 }

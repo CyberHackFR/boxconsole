@@ -7,9 +7,10 @@
 package sostatus
 
 import (
-	"github.com/security-onion-solutions/securityonion-soc/server"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSoStatusInit(tester *testing.T) {

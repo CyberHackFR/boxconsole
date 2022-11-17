@@ -11,10 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/security-onion-solutions/securityonion-soc/model"
-	"github.com/security-onion-solutions/securityonion-soc/module"
-	"github.com/security-onion-solutions/securityonion-soc/server"
-	"github.com/security-onion-solutions/securityonion-soc/web"
+	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/cyberhackfr/boxconsole/web"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,7 +9,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/security-onion-solutions/securityonion-soc/config"
+	"github.com/cyberhackfr/boxconsole/config"
 	"github.com/stretchr/testify/assert"
 )
 

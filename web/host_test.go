@@ -8,15 +8,16 @@ package web
 
 import (
 	"context"
-	"github.com/gorilla/websocket"
-	"github.com/security-onion-solutions/securityonion-soc/model"
-	"github.com/security-onion-solutions/securityonion-soc/rbac"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/cyberhackfr/boxconsole/rbac"
+	"github.com/gorilla/websocket"
+	"github.com/stretchr/testify/assert"
 )
 
 var webSocketReadString string

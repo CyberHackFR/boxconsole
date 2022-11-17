@@ -7,18 +7,19 @@
 package server
 
 import (
-  "context"
-  "github.com/security-onion-solutions/securityonion-soc/model"
+	"context"
+
+	"github.com/cyberhackfr/boxconsole/model"
 )
 
 type AdminUserstore interface {
-  AddUser(ctx context.Context, user *model.User) error
-  DeleteUser(ctx context.Context, id string) error
-  UpdateProfile(ctx context.Context, user *model.User) error
-  ResetPassword(ctx context.Context, id string, password string) error
-  EnableUser(ctx context.Context, id string) error
-  DisableUser(ctx context.Context, id string) error
-  AddRole(ctx context.Context, id string, role string) error
-  DeleteRole(ctx context.Context, id string, role string) error
-  SyncUsers(ctx context.Context) error
+	AddUser(ctx context.Context, user *model.User) error
+	DeleteUser(ctx context.Context, id string) error
+	UpdateProfile(ctx context.Context, user *model.User) error
+	ResetPassword(ctx context.Context, id string, password string) error
+	EnableUser(ctx context.Context, id string) error
+	DisableUser(ctx context.Context, id string) error
+	AddRole(ctx context.Context, id string, role string) error
+	DeleteRole(ctx context.Context, id string, role string) error
+	SyncUsers(ctx context.Context) error
 }
