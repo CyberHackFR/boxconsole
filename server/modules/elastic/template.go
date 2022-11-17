@@ -10,8 +10,8 @@ import (
 	"context"
 	"strings"
 
+	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/model"
 )
 
 func (store *ElasticCasestore) applyTemplate(ctx context.Context, socCase *model.Case) *model.Case {

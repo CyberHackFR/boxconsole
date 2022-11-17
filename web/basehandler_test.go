@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/stretchr/testify/assert"
 )
 

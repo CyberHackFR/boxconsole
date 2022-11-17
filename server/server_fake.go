@@ -10,9 +10,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cyberhackfr/boxconsole/config"
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/rbac"
+	"github.com/CyberHackFR/boxconsole/config"
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/rbac"
 )
 
 type FakeUserstore struct {

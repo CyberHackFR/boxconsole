@@ -10,7 +10,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/CyberHackFR/boxconsole/web"
 )
 
 type KratosPreprocessor struct {

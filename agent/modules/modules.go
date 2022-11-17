@@ -7,12 +7,12 @@
 package modules
 
 import (
-	"github.com/cyberhackfr/boxconsole/agent"
-	"github.com/cyberhackfr/boxconsole/agent/modules/analyze"
-	"github.com/cyberhackfr/boxconsole/agent/modules/importer"
-	"github.com/cyberhackfr/boxconsole/agent/modules/statickeyauth"
-	"github.com/cyberhackfr/boxconsole/agent/modules/stenoquery"
-	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/agent"
+	"github.com/CyberHackFR/boxconsole/agent/modules/analyze"
+	"github.com/CyberHackFR/boxconsole/agent/modules/importer"
+	"github.com/CyberHackFR/boxconsole/agent/modules/statickeyauth"
+	"github.com/CyberHackFR/boxconsole/agent/modules/stenoquery"
+	"github.com/CyberHackFR/boxconsole/module"
 )
 
 func BuildModuleMap(agt *agent.Agent) map[string]module.Module {

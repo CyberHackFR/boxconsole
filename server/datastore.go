@@ -10,7 +10,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 type Datastore interface {

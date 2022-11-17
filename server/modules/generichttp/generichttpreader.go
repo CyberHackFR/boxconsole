@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 func convertCaseToReader(source string, socCase *model.Case) (*strings.Reader, error) {

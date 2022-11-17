@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/CyberHackFR/boxconsole/json"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/json"
 	"golang.org/x/crypto/sha3"
 )
 

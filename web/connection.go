@@ -9,7 +9,7 @@ package web
 import (
 	"time"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/gorilla/websocket"
 )
 

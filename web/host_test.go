@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/rbac"
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/rbac"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/web"
 )
 
 type CaseHandler struct {

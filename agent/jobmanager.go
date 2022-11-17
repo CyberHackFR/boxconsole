@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/model"
 )
 
 type JobManager struct {

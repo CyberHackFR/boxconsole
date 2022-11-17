@@ -14,15 +14,15 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/CyberHackFR/boxconsole/agent"
+	agentModules "github.com/CyberHackFR/boxconsole/agent/modules"
+	"github.com/CyberHackFR/boxconsole/config"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
+	serverModules "github.com/CyberHackFR/boxconsole/server/modules"
 	"github.com/apex/log"
 	"github.com/apex/log/handlers/logfmt"
 	"github.com/apex/log/handlers/text"
-	"github.com/cyberhackfr/boxconsole/agent"
-	agentModules "github.com/cyberhackfr/boxconsole/agent/modules"
-	"github.com/cyberhackfr/boxconsole/config"
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
-	serverModules "github.com/cyberhackfr/boxconsole/server/modules"
 )
 
 var (

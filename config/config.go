@@ -9,7 +9,7 @@ package config
 import (
 	"time"
 
-	"github.com/cyberhackfr/boxconsole/json"
+	"github.com/CyberHackFR/boxconsole/json"
 )
 
 type Config struct {

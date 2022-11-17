@@ -9,7 +9,7 @@ package server
 import (
 	"testing"
 
-	"github.com/cyberhackfr/boxconsole/config"
+	"github.com/CyberHackFR/boxconsole/config"
 	"github.com/stretchr/testify/assert"
 )
 

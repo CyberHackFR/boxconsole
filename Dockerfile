@@ -4,13 +4,13 @@
 # https://securityonion.net/license; you may not use this file except in compliance with the
 # Elastic License 2.0.
 
-FROM ghcr.io/cyberhackfr/golang:alpine as builder
+FROM ghcr.io/CyberHackFR/golang:alpine as builder
 ARG VERSION=0.0.0
 RUN apk update && apk add libpcap-dev bash git musl-dev gcc npm python3 py3-pip py3-virtualenv
 COPY . /build
 WORKDIR /build
 RUN mkdir gitdocs && cd gitdocs && \
-	git clone --no-single-branch --depth 50 https://github.com/cyberhackfr/securityonion-docs.git . && \
+	git clone --no-single-branch --depth 50 https://github.com/CyberHackFR/securityonion-docs.git . && \
 	bash -c "[[ $VERSION == '0.0.0' ]]" || git checkout --force origin/$(echo $VERSION | cut -d'.' -f1,2) && \
 	git clean -d -f -f && \
 	sed -i "s|'display_github': True|'display_github': False|g" conf.py && \
@@ -24,7 +24,7 @@ RUN npm install jest jest-environment-jsdom --global
 RUN ln -s /usr/bin/python3 /usr/bin/python
 RUN ./build.sh "$VERSION"
 
-FROM ghcr.io/cyberhackfr/python:3-slim
+FROM ghcr.io/CyberHackFR/python:3-slim
 
 ARG UID=939
 ARG GID=939
@@ -52,7 +52,7 @@ RUN chown 939:939 scripts/*
 RUN find . -name \*.html -exec sed -i -e "s/VERSION_PLACEHOLDER/$VERSION/g" {} \;
 
 RUN bash -c "[[ $VERSION == '0.0.0' ]]" || \
-    wget https://github.com/cyberhackfr/securityonion-docs/raw/$(echo $VERSION | cut -d'.' -f 1,2)/images/cheat-sheet/Security-Onion-Cheat-Sheet.pdf -O html/docs/cheatsheet.pdf
+    wget https://github.com/CyberHackFR/securityonion-docs/raw/$(echo $VERSION | cut -d'.' -f 1,2)/images/cheat-sheet/Security-Onion-Cheat-Sheet.pdf -O html/docs/cheatsheet.pdf
 
 ENV ELASTIC_VERSION=$ELASTIC_VERSION
 ENV WAZUH_VERSION=$WAZUH_VERSION

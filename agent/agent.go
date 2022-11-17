@@ -7,9 +7,9 @@
 package agent
 
 import (
+	"github.com/CyberHackFR/boxconsole/config"
+	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/config"
-	"github.com/cyberhackfr/boxconsole/web"
 )
 
 type Agent struct {

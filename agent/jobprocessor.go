@@ -10,7 +10,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 type JobProcessor interface {

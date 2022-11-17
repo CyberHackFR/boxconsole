@@ -9,8 +9,8 @@ package elasticcases
 import (
 	"testing"
 
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
 	"github.com/stretchr/testify/assert"
 )
 

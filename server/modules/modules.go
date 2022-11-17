@@ -7,19 +7,19 @@
 package modules
 
 import (
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
-	"github.com/cyberhackfr/boxconsole/server/modules/elastic"
-	"github.com/cyberhackfr/boxconsole/server/modules/elasticcases"
-	"github.com/cyberhackfr/boxconsole/server/modules/filedatastore"
-	"github.com/cyberhackfr/boxconsole/server/modules/generichttp"
-	"github.com/cyberhackfr/boxconsole/server/modules/influxdb"
-	"github.com/cyberhackfr/boxconsole/server/modules/kratos"
-	"github.com/cyberhackfr/boxconsole/server/modules/salt"
-	"github.com/cyberhackfr/boxconsole/server/modules/sostatus"
-	"github.com/cyberhackfr/boxconsole/server/modules/statickeyauth"
-	"github.com/cyberhackfr/boxconsole/server/modules/staticrbac"
-	"github.com/cyberhackfr/boxconsole/server/modules/thehive"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/server/modules/elastic"
+	"github.com/CyberHackFR/boxconsole/server/modules/elasticcases"
+	"github.com/CyberHackFR/boxconsole/server/modules/filedatastore"
+	"github.com/CyberHackFR/boxconsole/server/modules/generichttp"
+	"github.com/CyberHackFR/boxconsole/server/modules/influxdb"
+	"github.com/CyberHackFR/boxconsole/server/modules/kratos"
+	"github.com/CyberHackFR/boxconsole/server/modules/salt"
+	"github.com/CyberHackFR/boxconsole/server/modules/sostatus"
+	"github.com/CyberHackFR/boxconsole/server/modules/statickeyauth"
+	"github.com/CyberHackFR/boxconsole/server/modules/staticrbac"
+	"github.com/CyberHackFR/boxconsole/server/modules/thehive"
 )
 
 func BuildModuleMap(srv *server.Server) map[string]module.Module {

@@ -9,8 +9,8 @@ package elastic
 import (
 	"errors"
 
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
 )
 
 const DEFAULT_CASE_INDEX = "*:so-case"

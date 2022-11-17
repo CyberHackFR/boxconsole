@@ -10,10 +10,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
 )
 
 const DEFAULT_REFRESH_INTERVAL_MS = 30000

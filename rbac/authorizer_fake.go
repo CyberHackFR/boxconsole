@@ -9,7 +9,7 @@ package rbac
 import (
 	"context"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 type FakeAuthorizer struct {

@@ -10,8 +10,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cyberhackfr/boxconsole/agent"
-	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/agent"
+	"github.com/CyberHackFR/boxconsole/module"
 )
 
 type StaticKeyAuth struct {

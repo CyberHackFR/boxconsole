@@ -7,7 +7,7 @@
 package generichttp
 
 import (
-	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/module"
 )
 
 type GenericHttpParams struct {

@@ -11,8 +11,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cyberhackfr/boxconsole/json"
-	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/CyberHackFR/boxconsole/json"
+	"github.com/CyberHackFR/boxconsole/web"
 )
 
 type JobsHandler struct {

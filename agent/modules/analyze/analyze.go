@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/CyberHackFR/boxconsole/agent"
+	"github.com/CyberHackFR/boxconsole/json"
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/module"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/agent"
-	"github.com/cyberhackfr/boxconsole/json"
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/module"
 )
 
 const DEFAULT_ANALYZERS_PATH = "/opt/sensoroni/analyzers"

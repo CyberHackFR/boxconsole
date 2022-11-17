@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/server"
-	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/stretchr/testify/assert"
 )
 

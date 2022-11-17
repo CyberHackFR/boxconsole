@@ -9,7 +9,7 @@ package server
 import (
 	"context"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 type GridMembersstore interface {

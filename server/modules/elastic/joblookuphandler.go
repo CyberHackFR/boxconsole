@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cyberhackfr/boxconsole/server"
-	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/web"
 )
 
 type JobLookupHandler struct {

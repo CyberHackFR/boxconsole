@@ -7,7 +7,7 @@
 package model
 
 import (
-	"github.com/cyberhackfr/boxconsole/config"
+	"github.com/CyberHackFR/boxconsole/config"
 )
 
 type Info struct {

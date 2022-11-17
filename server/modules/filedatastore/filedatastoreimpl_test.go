@@ -11,10 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
-	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/stretchr/testify/assert"
 )
 

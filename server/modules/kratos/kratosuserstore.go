@@ -9,10 +9,10 @@ package kratos
 import (
 	"context"
 
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/server"
-	"github.com/cyberhackfr/boxconsole/web"
 )
 
 type KratosUserstore struct {

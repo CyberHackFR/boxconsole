@@ -7,7 +7,7 @@
 package elasticcases
 
 import (
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 func convertToElasticCase(inputCase *model.Case) (*ElasticCase, error) {

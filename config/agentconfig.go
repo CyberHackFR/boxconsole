@@ -10,7 +10,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/module"
 )
 
 const DEFAULT_POLL_INTERVAL_MS = 1000

@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/model"
 )
 
 const GENERIC_ERROR_MESSAGE = "The request could not be processed. Contact a server admin for assistance with reviewing error details in SOC logs."

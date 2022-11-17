@@ -9,7 +9,7 @@ package modules
 import (
 	"testing"
 
-	"github.com/cyberhackfr/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/module"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -12,8 +12,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/CyberHackFR/boxconsole/module"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/module"
 )
 
 const DEFAULT_MAX_PACKET_COUNT = 5000

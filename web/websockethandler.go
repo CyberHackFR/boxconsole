@@ -11,9 +11,9 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/CyberHackFR/boxconsole/json"
+	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/json"
-	"github.com/cyberhackfr/boxconsole/model"
 	"github.com/gorilla/websocket"
 )
 

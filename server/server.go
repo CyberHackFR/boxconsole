@@ -12,11 +12,11 @@ import (
 	"os/exec"
 	"strings"
 
+	"github.com/CyberHackFR/boxconsole/config"
+	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/rbac"
+	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
-	"github.com/cyberhackfr/boxconsole/config"
-	"github.com/cyberhackfr/boxconsole/model"
-	"github.com/cyberhackfr/boxconsole/rbac"
-	"github.com/cyberhackfr/boxconsole/web"
 )
 
 const AGENT_ID = "agent"

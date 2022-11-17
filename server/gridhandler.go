@@ -11,7 +11,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cyberhackfr/boxconsole/web"
+	"github.com/CyberHackFR/boxconsole/web"
 )
 
 type GridHandler struct {

@@ -9,7 +9,7 @@ package kratos
 import (
 	"time"
 
-	"github.com/cyberhackfr/boxconsole/model"
+	"github.com/CyberHackFR/boxconsole/model"
 )
 
 type KratosTraits struct {

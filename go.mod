@@ -1,4 +1,4 @@
-module github.com/cyberhackfr/boxconsole
+module github.com/CyberHackFR/boxconsole
 
 go 1.19
 

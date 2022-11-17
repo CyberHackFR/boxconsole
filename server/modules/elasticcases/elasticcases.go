@@ -9,8 +9,8 @@ package elasticcases
 import (
 	"errors"
 
-	"github.com/cyberhackfr/boxconsole/module"
-	"github.com/cyberhackfr/boxconsole/server"
+	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/CyberHackFR/boxconsole/server"
 )
 
 type ElasticCases struct {
