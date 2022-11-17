@@ -9,8 +9,8 @@ package generichttp
 import (
 	"errors"
 
-	"github.com/CyberHackFR/boxconsole/module"
-	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/security-onion-solutions/securityonion-soc/server"
 )
 
 type HttpCase struct {

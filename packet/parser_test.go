@@ -11,8 +11,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/google/gopacket"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/server"
-	"github.com/CyberHackFR/boxconsole/web"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 	"github.com/stretchr/testify/assert"
 )
 

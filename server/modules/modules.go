@@ -7,19 +7,19 @@
 package modules
 
 import (
-	"github.com/CyberHackFR/boxconsole/module"
-	"github.com/CyberHackFR/boxconsole/server"
-	"github.com/CyberHackFR/boxconsole/server/modules/elastic"
-	"github.com/CyberHackFR/boxconsole/server/modules/elasticcases"
-	"github.com/CyberHackFR/boxconsole/server/modules/filedatastore"
-	"github.com/CyberHackFR/boxconsole/server/modules/generichttp"
-	"github.com/CyberHackFR/boxconsole/server/modules/influxdb"
-	"github.com/CyberHackFR/boxconsole/server/modules/kratos"
-	"github.com/CyberHackFR/boxconsole/server/modules/salt"
-	"github.com/CyberHackFR/boxconsole/server/modules/sostatus"
-	"github.com/CyberHackFR/boxconsole/server/modules/statickeyauth"
-	"github.com/CyberHackFR/boxconsole/server/modules/staticrbac"
-	"github.com/CyberHackFR/boxconsole/server/modules/thehive"
+	"github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/elastic"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/elasticcases"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/filedatastore"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/generichttp"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/influxdb"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/kratos"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/salt"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/sostatus"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/statickeyauth"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/staticrbac"
+	"github.com/security-onion-solutions/securityonion-soc/server/modules/thehive"
 )
 
 func BuildModuleMap(srv *server.Server) map[string]module.Module {

@@ -10,7 +10,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/security-onion-solutions/securityonion-soc/module"
 )
 
 const DEFAULT_POLL_INTERVAL_MS = 1000

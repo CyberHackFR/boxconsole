@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/CyberHackFR/boxconsole/server"
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 type StaticKeyAuthImpl struct {

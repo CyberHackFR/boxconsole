@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/agent"
-	"github.com/CyberHackFR/boxconsole/json"
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/module"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/agent"
+	"github.com/security-onion-solutions/securityonion-soc/json"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/module"
 )
 
 const DEFAULT_ANALYZERS_PATH = "/opt/sensoroni/analyzers"

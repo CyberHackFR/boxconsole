@@ -10,12 +10,12 @@ import (
 	"encoding/base64"
 	"os"
 
-	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/apex/log"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
 	"github.com/google/gopacket/pcapgo"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 var SupportedLayerTypes = [...]gopacket.LayerType{

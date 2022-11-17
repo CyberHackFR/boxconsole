@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 type StreamHandler struct {

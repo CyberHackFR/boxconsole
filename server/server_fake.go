@@ -10,9 +10,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/CyberHackFR/boxconsole/config"
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/rbac"
+	"github.com/security-onion-solutions/securityonion-soc/config"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/rbac"
 )
 
 type FakeUserstore struct {

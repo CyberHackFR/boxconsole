@@ -7,9 +7,9 @@
 package agent
 
 import (
-	"github.com/CyberHackFR/boxconsole/config"
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/config"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 type Agent struct {

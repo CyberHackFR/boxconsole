@@ -18,12 +18,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/server"
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/elastic/go-elasticsearch/v8/esapi"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 	"github.com/tidwall/gjson"
 )
 

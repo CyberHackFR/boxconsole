@@ -14,15 +14,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/agent"
-	agentModules "github.com/CyberHackFR/boxconsole/agent/modules"
-	"github.com/CyberHackFR/boxconsole/config"
-	"github.com/CyberHackFR/boxconsole/module"
-	"github.com/CyberHackFR/boxconsole/server"
-	serverModules "github.com/CyberHackFR/boxconsole/server/modules"
 	"github.com/apex/log"
 	"github.com/apex/log/handlers/logfmt"
 	"github.com/apex/log/handlers/text"
+	"github.com/security-onion-solutions/securityonion-soc/agent"
+	agentModules "github.com/security-onion-solutions/securityonion-soc/agent/modules"
+	"github.com/security-onion-solutions/securityonion-soc/config"
+	"github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	serverModules "github.com/security-onion-solutions/securityonion-soc/server/modules"
 )
 
 var (

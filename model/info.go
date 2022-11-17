@@ -7,7 +7,7 @@
 package model
 
 import (
-	"github.com/CyberHackFR/boxconsole/config"
+	"github.com/security-onion-solutions/securityonion-soc/config"
 )
 
 type Info struct {

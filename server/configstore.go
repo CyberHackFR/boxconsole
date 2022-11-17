@@ -9,7 +9,7 @@ package server
 import (
 	"context"
 
-	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 type Configstore interface {

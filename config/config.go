@@ -9,7 +9,7 @@ package config
 import (
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/json"
+	"github.com/security-onion-solutions/securityonion-soc/json"
 )
 
 type Config struct {

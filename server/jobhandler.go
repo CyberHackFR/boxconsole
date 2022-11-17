@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/web"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 type JobHandler struct {

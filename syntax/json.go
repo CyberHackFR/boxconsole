@@ -10,8 +10,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/CyberHackFR/boxconsole/json"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/json"
 )
 
 func ValidateJson(value string) error {

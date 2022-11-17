@@ -9,8 +9,8 @@ package web
 import (
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/gorilla/websocket"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 type Connection struct {

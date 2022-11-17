@@ -7,12 +7,12 @@
 package modules
 
 import (
-	"github.com/CyberHackFR/boxconsole/agent"
-	"github.com/CyberHackFR/boxconsole/agent/modules/analyze"
-	"github.com/CyberHackFR/boxconsole/agent/modules/importer"
-	"github.com/CyberHackFR/boxconsole/agent/modules/statickeyauth"
-	"github.com/CyberHackFR/boxconsole/agent/modules/stenoquery"
-	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/security-onion-solutions/securityonion-soc/agent"
+	"github.com/security-onion-solutions/securityonion-soc/agent/modules/analyze"
+	"github.com/security-onion-solutions/securityonion-soc/agent/modules/importer"
+	"github.com/security-onion-solutions/securityonion-soc/agent/modules/statickeyauth"
+	"github.com/security-onion-solutions/securityonion-soc/agent/modules/stenoquery"
+	"github.com/security-onion-solutions/securityonion-soc/module"
 )
 
 func BuildModuleMap(agt *agent.Agent) map[string]module.Module {

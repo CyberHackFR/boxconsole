@@ -12,11 +12,11 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/CyberHackFR/boxconsole/config"
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/rbac"
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/config"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/rbac"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 const AGENT_ID = "agent"

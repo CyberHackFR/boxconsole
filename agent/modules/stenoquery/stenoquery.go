@@ -16,11 +16,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/agent"
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/module"
 	"github.com/apex/log"
 	"github.com/kennygrant/sanitize"
+	"github.com/security-onion-solutions/securityonion-soc/agent"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/module"
 )
 
 const DEFAULT_EXECUTABLE_PATH = "stenoread"

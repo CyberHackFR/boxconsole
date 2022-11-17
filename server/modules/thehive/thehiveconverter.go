@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 func convertSeverity(sev string) int {

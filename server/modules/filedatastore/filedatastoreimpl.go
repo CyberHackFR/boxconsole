@@ -17,14 +17,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/json"
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/module"
-	"github.com/CyberHackFR/boxconsole/packet"
-	"github.com/CyberHackFR/boxconsole/server"
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
 	"github.com/kennygrant/sanitize"
+	"github.com/security-onion-solutions/securityonion-soc/json"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/security-onion-solutions/securityonion-soc/packet"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 const DEFAULT_RETRY_FAILURE_INTERVAL_MS = 600000

@@ -18,12 +18,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/json"
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/server"
-	"github.com/CyberHackFR/boxconsole/syntax"
-	"github.com/CyberHackFR/boxconsole/web"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/json"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/server"
+	"github.com/security-onion-solutions/securityonion-soc/syntax"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 	"gopkg.in/yaml.v3"
 )
 

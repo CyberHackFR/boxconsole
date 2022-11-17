@@ -9,7 +9,7 @@ package kratos
 import (
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 type KratosTraits struct {

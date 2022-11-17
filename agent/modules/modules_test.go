@@ -9,7 +9,7 @@ package modules
 import (
 	"testing"
 
-	"github.com/CyberHackFR/boxconsole/module"
+	"github.com/security-onion-solutions/securityonion-soc/module"
 )
 
 func TestBuildModuleMap(tester *testing.T) {

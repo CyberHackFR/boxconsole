@@ -7,7 +7,7 @@
 package elasticcases
 
 import (
-	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 func convertToElasticCase(inputCase *model.Case) (*ElasticCase, error) {

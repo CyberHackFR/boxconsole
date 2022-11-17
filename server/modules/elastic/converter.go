@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/json"
-	"github.com/CyberHackFR/boxconsole/model"
 	"github.com/apex/log"
+	"github.com/security-onion-solutions/securityonion-soc/json"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 func stripSegmentOptions(keys []string) []string {

@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CyberHackFR/boxconsole/model"
-	"github.com/CyberHackFR/boxconsole/rbac"
 	"github.com/gorilla/websocket"
+	"github.com/security-onion-solutions/securityonion-soc/model"
+	"github.com/security-onion-solutions/securityonion-soc/rbac"
 	"github.com/stretchr/testify/assert"
 )
 

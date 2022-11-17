@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/CyberHackFR/boxconsole/web"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 type PacketHandler struct {

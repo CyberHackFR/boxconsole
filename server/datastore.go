@@ -10,7 +10,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/CyberHackFR/boxconsole/model"
+	"github.com/security-onion-solutions/securityonion-soc/model"
 )
 
 type Datastore interface {

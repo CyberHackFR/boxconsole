@@ -11,8 +11,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/CyberHackFR/boxconsole/json"
-	"github.com/CyberHackFR/boxconsole/web"
+	"github.com/security-onion-solutions/securityonion-soc/json"
+	"github.com/security-onion-solutions/securityonion-soc/web"
 )
 
 type JobsHandler struct {

@@ -9,8 +9,8 @@ package thehive
 import (
 	"testing"
 
-	"github.com/CyberHackFR/boxconsole/module"
-	"github.com/CyberHackFR/boxconsole/server"
+	"github.com/security-onion-solutions/securityonion-soc/module"
+	"github.com/security-onion-solutions/securityonion-soc/server"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,4 +1,4 @@
-module github.com/CyberHackFR/boxconsole
+module github.com/security-onion-solutions/securityonion-soc
 
 go 1.19
 
